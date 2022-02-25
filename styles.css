@@ -1,0 +1,105 @@
+
+/* #################################################### */
+/* --------- BODY
+/* #################################################### */
+body {
+
+    width: 98vw;
+    height: 98vh;
+
+    display: grid;
+    grid-template-rows: 30px 1fr;
+    grid-template-columns: 1fr 4fr;;
+    grid-template-areas: "header header"
+                         "actions main";
+}
+
+/* #################################################### */
+/* --------- HEADER
+/* #################################################### */
+.header {
+    grid-area: header;
+
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 3px;
+
+    border: 1px solid blue;
+}
+
+/* #################################################### */
+/* --------- ACTIONS
+/* #################################################### */
+.actions {
+    grid-area: actions;
+    padding: 3px;
+    border: 1px solid blue;
+}
+.span-read {
+    color: grey;
+    font-size: 15px;
+    padding: 3px;
+
+    display: flex;
+    gap: 10px;
+}
+
+
+/* #################################################### */
+/* --------- MAIN
+/* #################################################### */
+.main {
+    grid-area: main;
+    border: 1px solid blue;
+}
+#div-cards {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 250px));
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+
+}
+.div-card {
+    padding: 20px;
+    border: 1px solid blue; 
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: "title title"
+                         "author author"
+                         "pages pages"
+                         "read remove";
+    gap: 10px;
+}
+.div-card div {
+    padding: 6px;
+    grid-area: "field";
+}
+.div-title {
+    grid-area: title;
+}
+.div-author {
+    grid-area: author;
+}
+.div-pages {
+    grid-area: pages;
+}
+.btn-read {
+    grid-area: read;
+    width: fit-content;
+}
+.btn-read[read=false] {
+    color: white;
+    background-color: red;
+}
+.btn-read[read=true] {
+    color: white;
+    background-color: green;
+}
+.btn-remove {
+    grid-area: "remove";
+}
