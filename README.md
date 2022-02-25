@@ -1,6 +1,6 @@
 # LIBRARY APP
 
-# Background
+### Background
 Course project: 
 - Course Provider: ODIN Project
 - Course: Javascript Full Stack Web Development 
