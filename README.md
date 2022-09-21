@@ -1,16 +1,17 @@
-# LIBRARY APP
+# ODIN_library
 
-### Background
-Course project: 
-- Course Provider: ODIN Project
-- Course: Javascript Full Stack Web Development 
-- Section: Javascript
+## Motivation
+This project is to practice the concepts learned in the Odin Project - Full Stack Javascript - Javascript lessons.
+- Javascript, Objects, Constructors
 
-### Link to the application:
+## Concepts covered
+- HTML5, CSS, Javascript
+- Git/Github
+
+## View page
 https://vinnn.github.io/ODIN_library/
 
-
 ### Thank you
-I would like to thank the Odin Project
-and thank you all providers of internet resources that I managed to access and learn from. 
+Thank you the Odin Project
+and to the very helpful providers of internet resources 
 
