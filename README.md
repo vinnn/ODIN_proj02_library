@@ -11,7 +11,7 @@ This project is to practice the concepts learned in the Odin Project - Full Stac
 ## View page
 https://vinnn.github.io/ODIN_library/
 
-### Thank you
+## Thank you
 Thank you the Odin Project
 and to the very helpful providers of internet resources 
 
