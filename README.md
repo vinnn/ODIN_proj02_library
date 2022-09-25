@@ -9,7 +9,7 @@ This project is to practice the concepts learned in the Odin Project - Full Stac
 - Git/Github
 
 ## View page
-https://vinnn.github.io/ODIN_library/
+https://vinnn.github.io/ODIN_proj02_library/
 
 ## Thank you
 Thank you the Odin Project
